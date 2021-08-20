@@ -15,7 +15,7 @@ subtitle:
 design:
   columns: "1"
   background:
-    image: contact.jpg
+    image: kcl_091017_213[1].jpg
     image_darken: 0
     image_parallax: false
     image_position: center

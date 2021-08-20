@@ -7,9 +7,33 @@ main:
   - name: News
     url: post
     weight: 20
-  - name: People
-    url: people
+  - name: Group
+    url: group
     weight: 30
+  - name: Algorithms and Data Analysis
+    url: group/ada
+    weight: 31
+    parent: Group
+  - name: Cybersecurity
+    url: group/cys
+    weight: 32
+    parent: Group
+  - name: Distributed Artificial Intelligence
+    url: group/dai
+    weight: 33
+    parent: Group
+  - name: Human Centred Computing
+    url: group/hcc
+    weight: 34
+    parent: Group
+  - name: Reasoning and Planning
+    url: group/rap
+    weight: 35
+    parent: Group
+  - name: Software Systems
+    url: group/ssy
+    weight: 36
+    parent: Group
   - name: Events
     url: event
     weight: 40

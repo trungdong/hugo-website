@@ -5,43 +5,43 @@
 
 # Appearance
 
-theme: minimal
-day_night: false
-font: native
-font_size: L
+theme: kcl
+day_night: true
+font: kcl
+font_size: M
 
 # SEO
 
 site_type: Organization
 local_business_type: ''
-org_name: ''
+org_name: 'King''s College London'
 description: My research group description.
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: ''
+phone: +44 (0)20 7836 5454
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: (N)6.11, Bush House, 30 Aldwych
+  city: London
+  # region: CA
+  postcode: 'WC2B 4BG'
+  country: United Kingdom
+  country_code: GB
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  latitude: '51.51275'
+  longitude: '-0.117278'
+directions: ''
+# office_hours:
+#   - 'Monday 10:00 to 13:00'
+#   - 'Wednesday 09:00 to 10:00'
+appointment_url: ''
 contact_links:
-#  - icon: comments
-#    icon_pack: fas
-#    name: Discuss on Forum
-#    link: 'https://discourse.gohugo.io'
+ - icon: twitter
+   icon_pack: fab
+   name: Our tweets
+   link: 'https://twitter.com/kclinformatics'
 
 # Site header
 
@@ -50,7 +50,7 @@ main_menu:
   align: r
   show_logo: true
   show_language: false
-  show_day_night: true
+  show_day_night: false
   show_search: true
   highlight_active_link: false
 
@@ -58,7 +58,7 @@ main_menu:
 
 date_format: 'Jan 2, 2006'
 time_format: '3:04 PM'
-address_format: en-us
+address_format: en-gb
 
 # Site features
 
@@ -75,11 +75,12 @@ reading_time: true
 section_pager: false
 sharing: true
 copyright_license:
-  enable: false
+  enable: true
   allow_derivatives: false
-  share_alike: true
+  share_alike: false
   allow_commercial: false
-  notice: 'This work is licensed under {license}'
+  notice: '© 2021 King''s College London'
+# i_am_a_sponsor: true
 plugins_js: []
 avatar:
   gravatar: false
